@@ -1,0 +1,45 @@
+.header {
+  font-family: Gill Sans Extrabold, sans-serif;
+  padding: 1em;
+  background-color: whitesmoke;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+}
+$ruler: 19px;
+form{
+  padding: $ruler;
+  width: $ruler*20;
+  margin: 0 auto;
+}
+input
+{
+    font-family: 'Arial', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: $ruler;
+    border: 0;
+    outline: 0;
+    font-size: $ruler;
+    border-radius: $ruler*20;
+    padding: $ruler;
+    background-color: rgb(241, 243, 245)
+    
+   
+  }
+
+table {
+  border-collapse: collapse;
+  min-width: 800px;
+  margin:auto auto;
+  font-size: 1em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+  
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  
+}
